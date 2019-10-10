@@ -1,4 +1,4 @@
-=== QR Code Generator for Post ===
+#QR_Code_Generator_for_WordPress_Page_And_Post
 Author Url: https://wprashed.com
 Requires at least: 3.0.1
 Tested up to: 5.2.2
