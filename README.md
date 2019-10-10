@@ -1,7 +1,5 @@
 === QR Code Generator for Post ===
-Contributors: largbasket
-Donate link: https://wprashed.com
-Tags: qr code, article length, qr code generator
+Author Url: https://wprashed.com
 Requires at least: 3.0.1
 Tested up to: 5.2.2
 Stable tag: 4.3
