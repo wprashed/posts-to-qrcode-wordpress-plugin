@@ -1,18 +1,21 @@
 <?php
-/*
-Plugin Name: Posts To QR Code
-Plugin URI: https://github.com/safanbd/posts-to-qrcode-wordpress-plugin
-Description: Display QR Code under ever posts
-Version: 1.0
-Author: Bappy
-Author URI: https://github.com/safanbd
-License: GPLv2 or later
-Text Domain: posts-to-qrcode
-Domain Path: /languages/
-*/
+
+/**
+ *
+ * @wordpress-plugin
+ * Plugin Name:       QR Code Generator for Post
+ * Description:       Automaticly generate QR code for every post.
+ * Version:           1.0.0
+ * Author:            Md Rashed Hossain
+ * Author URI:        https://wprashed.com
+ * License:           GPL-2.0+
+ * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
+ * Text Domain:       qr_code_generator_for_post
+ * Domain Path:       /languages
+ */
 
 function pqrc_load_textdomain() {
-    load_plugin_textdomain( 'posts-to-qrcode', false, dirname( __FILE__ ) . "/languages" );
+    load_plugin_textdomain( 'qr_code_generator_for_post', false, dirname( __FILE__ ) . "/languages" );
 }
 
 function pqrc_display_qr_code( $content ) {
